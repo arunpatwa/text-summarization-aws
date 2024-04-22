@@ -116,3 +116,168 @@ x==========x]
 [2024-04-22 23:39:39,296: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2024-04-22 23:49:38,054: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-22 23:49:46,577: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 23:49:46,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 23:49:46,578: INFO: common: created directory at: artifacts]
+[2024-04-22 23:49:46,579: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-22 23:51:00,419: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-22 23:51:00,420: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 23:51:00,421: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 23:51:00,421: INFO: common: created directory at: artifacts]
+[2024-04-22 23:51:00,421: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-22 23:51:00,421: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-04-22 23:51:00,501: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-22 23:51:00,501: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-22 23:51:00,502: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 23:51:00,503: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 23:51:00,503: INFO: common: created directory at: artifacts]
+[2024-04-22 23:51:00,503: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-22 23:51:00,503: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-04-22 23:56:10,216: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-22 23:57:40,461: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-22 23:57:40,541: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-22 23:57:40,543: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 23:57:40,543: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 23:57:40,543: INFO: common: created directory at: artifacts]
+[2024-04-22 23:57:40,543: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-22 23:57:40,543: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-04-22 23:57:40,629: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-22 23:57:40,629: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-22 23:57:40,630: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 23:57:40,631: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 23:57:40,631: INFO: common: created directory at: artifacts]
+[2024-04-22 23:57:40,631: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-22 23:57:40,631: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-04-22 23:57:40,631: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-04-22 23:57:40,632: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 23:57:40,632: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 23:57:40,632: INFO: common: created directory at: artifacts]
+[2024-04-22 23:57:40,632: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-22 23:57:43,885: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-04-23 00:08:14,921: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:08:14,923: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:08:14,924: INFO: common: created directory at: artifacts]
+[2024-04-23 00:08:14,924: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-23 00:08:31,836: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-23 00:08:31,945: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:08:31,946: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:08:31,947: INFO: common: created directory at: artifacts]
+[2024-04-23 00:08:31,947: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-23 00:10:01,943: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:10:01,945: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:10:01,945: INFO: common: created directory at: artifacts]
+[2024-04-23 00:10:01,946: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-23 00:35:19,334: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-23 00:35:20,405: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-23 00:35:20,407: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:35:20,408: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:35:20,408: INFO: common: created directory at: artifacts]
+[2024-04-23 00:35:20,408: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-23 00:35:20,409: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-04-23 00:35:20,509: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-23 00:35:20,509: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-23 00:35:20,510: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:35:20,511: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:35:20,511: INFO: common: created directory at: artifacts]
+[2024-04-23 00:35:20,511: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-23 00:35:20,511: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-04-23 00:35:20,511: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-04-23 00:35:20,512: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:35:20,513: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:35:20,513: INFO: common: created directory at: artifacts]
+[2024-04-23 00:35:20,513: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-23 00:35:22,173: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-04-23 00:35:22,174: INFO: main: *******************]
+[2024-04-23 00:35:22,174: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-04-23 00:35:22,175: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:35:22,175: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:35:22,175: INFO: common: created directory at: artifacts]
+[2024-04-23 00:35:22,175: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-23 00:37:20,233: ERROR: main: [Errno 28] No space left on device]
+Traceback (most recent call last):
+  File "/media/arun/New Volume/Project/text-summarization-aws/main.py", line 50, in <module>
+    model_trainer.main()
+  File "/media/arun/New Volume/Project/text-summarization-aws/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/media/arun/New Volume/Project/text-summarization-aws/src/textSummarizer/conponents/model_trainer.py", line 19, in train
+    model_pegasus = AutoModelForSeq2SeqLM.from_pretrained(self.config.model_ckpt).to(device)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization-aws/vnv/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 563, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization-aws/vnv/lib/python3.11/site-packages/transformers/modeling_utils.py", line 3335, in from_pretrained
+    resolved_archive_file = cached_file(
+                            ^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization-aws/vnv/lib/python3.11/site-packages/transformers/utils/hub.py", line 398, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization-aws/vnv/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 119, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization-aws/vnv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1492, in hf_hub_download
+    http_get(
+  File "/media/arun/New Volume/Project/text-summarization-aws/vnv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 538, in http_get
+    temp_file.write(chunk)
+  File "/usr/lib/python3.11/tempfile.py", line 622, in func_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device
+[2024-04-23 00:42:37,205: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-23 00:42:37,961: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-23 00:42:37,963: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:42:37,964: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:42:37,964: INFO: common: created directory at: artifacts]
+[2024-04-23 00:42:37,964: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-23 00:42:37,964: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-04-23 00:42:38,047: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-23 00:42:38,047: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-23 00:42:38,048: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:42:38,048: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:42:38,048: INFO: common: created directory at: artifacts]
+[2024-04-23 00:42:38,048: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-23 00:42:38,049: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-04-23 00:42:38,049: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-04-23 00:42:38,050: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:42:38,050: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:42:38,050: INFO: common: created directory at: artifacts]
+[2024-04-23 00:42:38,050: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-23 00:42:45,214: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-04-23 00:42:45,215: INFO: main: *******************]
+[2024-04-23 00:42:45,215: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-04-23 00:42:45,216: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:42:45,217: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:42:45,217: INFO: common: created directory at: artifacts]
+[2024-04-23 00:42:45,217: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-23 00:52:08,375: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-23 00:52:08,514: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:52:08,517: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:52:08,517: INFO: common: created directory at: artifacts]
+[2024-04-23 00:52:08,519: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-04-23 00:52:25,129: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-23 00:52:25,227: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-23 00:52:25,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-23 00:52:25,229: INFO: common: created directory at: artifacts]
+[2024-04-23 00:52:25,230: INFO: common: created directory at: artifacts/model_evaluation]
