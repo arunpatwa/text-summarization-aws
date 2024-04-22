@@ -1,0 +1,92 @@
+[2024-03-21 22:46:57,338: INFO: main: welcome to our custom log]
+[2024-04-22 22:58:07,271: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-22 22:58:07,273: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 22:58:07,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 22:58:07,274: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "/media/arun/New Volume/Project/text-summarization/src/textSummarizer/utils/common.py", line 30, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "box/box.py", line 296, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/arun/New Volume/Project/text-summarization/main.py", line 10, in <module>
+    data_ingestion.main()
+  File "/media/arun/New Volume/Project/text-summarization/src/textSummarizer/pipeline/stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization/src/textSummarizer/config/configuration.py", line 14, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization/vnv/lib/python3.11/site-packages/ensure/main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization/src/textSummarizer/utils/common.py", line 32, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-04-22 23:05:50,131: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-22 23:05:50,132: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 23:05:50,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 23:05:50,133: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "/media/arun/New Volume/Project/text-summarization/src/textSummarizer/utils/common.py", line 30, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "box/box.py", line 296, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/arun/New Volume/Project/text-summarization/main.py", line 10, in <module>
+    data_ingestion.main()
+  File "/media/arun/New Volume/Project/text-summarization/src/textSummarizer/pipeline/stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization/src/textSummarizer/config/configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization/vnv/lib/python3.11/site-packages/ensure/main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/arun/New Volume/Project/text-summarization/src/textSummarizer/utils/common.py", line 32, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-04-22 23:08:48,442: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-22 23:08:48,443: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-04-22 23:08:48,444: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-22 23:08:48,444: INFO: common: created directory at: artifacts]
+[2024-04-22 23:08:48,446: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-22 23:08:50,772: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 80B6:E7F6A:2BB826:3A78CF:6626A0A9
+Accept-Ranges: bytes
+Date: Mon, 22 Apr 2024 17:38:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21747-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1713807529.358989,VS0,VE749
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f8b018b84846660500de61381d961b51ebbec46a
+Expires: Mon, 22 Apr 2024 17:43:50 GMT
+Source-Age: 0
+
+]
+[2024-04-22 23:08:50,858: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
